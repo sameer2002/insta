@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">   
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all"/>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Playball|Kaushan+Script|Josefin+Sans|Mansalva|Satisfy|Yesteryear|Courgette|Damion|Great+Vibes|Pacifico&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/021dafb166.js"></script>
+
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <img src="./css/image/banner.png" alt="">
+        </div>
+        <div class="overly">
+            <img class="RP4i1 JtrJi " src="https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg" alt="">
+            <img class="RP4i1  " src="https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg" alt="">
+            <img class="RP4i1  " src="https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg" alt="">
+
+        </div>
+
+        <div id="idk">
+        <div class="head2">
+            <div class="insta">
+                <h1>Instagram</h1>
+            </div>
+            <div class="disc">
+                <h2>Sign up to see photos and videos <br/> from your friends.</h2>
+            </div>
+            <div>
+
+            </div>
+            <div class="facebook">
+                <button>
+                    <i class="fab fa-facebook-square"></i> Log in with facebook
+                </button>
+            </div>
+            <div class="or">
+                <hr />
+                or
+                <hr />
+            </div>
+            <div class="info">
+                <form >
+                    <input type="email" placeholder="Email id" class="e">
+                    <input type="text" placeholder="Full name" class="e">
+                    <input type="text" placeholder="Username" class="e">
+                    <input type="password" placeholder="Password" class="e">
+                </form>
+            </div>
+            <div class="sign">
+                <button>
+                     Sign up
+                </button>
+            </div>
+            <div class="par">
+                <p> By signing up, you agree to our <br/> Terms , Data Policy and Cookies <br/> Policy .</p>
+            </div>
+
+
+        </div>
+        <div class="head2">
+           <p class="head3">Have an account? <a href="#"> Log in</a> </p>
+        </div>
+
+        <div class="app">
+            <p>Get the app.</p>
+        </div>
+        <div class="apps">
+            <div id="a">
+                <img src="./css/image/apple-300x88.png" alt="">
+
+            
+            </div>
+            <div id="b">
+                <img src="/css/image/google-300x89.png" alt="">
+                
+            </div>
+        </div>
+
+
+
+        </div>
+        
+
+    </div>
+
+
+
+
+    <footer class="footer">
+        <ul>
+            <li>ABOUT US</li>
+            <li>HELP</li>
+            <li>PRESS</li>
+            <li>API</li>
+            <li>JOBS</li>
+            <li>PRIVACY</li>
+            <li>TERMS</li>
+            <li>DIRECTORY</li>
+            <li>PROFILES</li>
+            <li>HASHTAGS</li>
+            <li>LANGUAGE</li>
+         </ul>
+
+   </footer>
+   <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("RP4i1");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000);    
+    }
+    </script>
+</body>
+
+</html>

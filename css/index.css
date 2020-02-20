@@ -1,0 +1,205 @@
+body{
+    margin: 0em;
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{ margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a69999;
+    
+}
+.head{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+
+}
+.img{
+    
+    width: 370px; height: 586px;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+.insta h1{
+    font-weight: 10;
+    font-size: 2.8em;
+    color: black;
+    margin: 15px;
+
+}
+.disc h2{
+    text-align: center;
+    font-size: 1em;
+    color: #a69999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    margin: 10px;
+}
+
+.head2{width: 350px;
+    background-color: white;
+    border:1px solid #e6e6e6;
+    text-align: center;
+    margin: 13px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.facebook{
+    margin: 20px;
+
+}
+.facebook button {
+    background-color:#3897f0;
+    border-radius: 2.5px;
+    border: 0em;
+    color: white;
+    padding: 0.3em 3em;
+    font-size: 1em;
+    font-weight: 1px;
+}
+.facebook button i{
+    font-size: 1.3em;
+    margin:0 5px;
+}
+.e{
+    background-color: #fafafa;
+    border-radius: 2.5px;
+    width: 270px ; padding: 10px 0px 10px 8px;
+    border: 1px solid #e6e6e6 ;
+    margin: 3px;
+}
+.e:focus{
+    border: 0.5px solid gray;
+    outline: none ;
+}
+
+form{
+    text-align: center;
+}
+.sign{
+    margin: 20px;
+}
+.sign button{
+    background-color:#3897f0;
+    border-radius: 2.5px;
+    border: 0em;
+    color: white;
+    padding: 0.3em 7em;
+    font-size: 1em;
+
+}
+.par{
+
+    text-align: center;
+}
+.par p{
+    font-size: 0.8em;
+}
+
+#idk{
+    display: inline;
+}
+.head3{
+    font-size: 13px;
+    padding: 10px;
+    color: black;
+}
+.app{
+    display: flex;
+    justify-content: center;
+}
+.app p{
+    color: black;
+    font-size: 0.9em;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 80%;
+}
+
+.or hr{
+    width:150px;
+    height:1px;
+    background-color: gray;
+    border: none;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+
+}
+#a{
+    padding: 0.5em;
+}
+#b{
+    padding: 0.5em;
+    
+}
+#a img{
+    width: 136px;
+    height: 40px;
+}
+#b img{
+    width: 136px;
+    height: 40px;
+}
+.footer{
+    padding: 30px 0em 30px 120px;
+}
+.footer ul{
+    display: flex;
+
+}
+.footer ul li{
+    font-size: 12px;
+    list-style: none;
+    padding: 0.6em;
+    color:#003569;
+
+}
+@keyframes s{
+    0% {
+    color:BLUE;
+    }
+    100%{
+    opacity: 2;
+    }
+    
+
+}
+
+.overly{
+    position: absolute;
+    top:11em;
+    left:26.45em
+}
+
+.overly .RP4i1{
+    opacity: 0.5;
+    -webkit-animation: fadein 5s;
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s;
+         -o-animation: fadein 5s;
+            animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
